@@ -1,0 +1,149 @@
+@import url(./fonts.css);
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*To give white background*/
+.white{
+    background-color: white;
+}
+header nav{
+    box-shadow: 3px 3px 20px #dfdfdf; 
+}
+.main-menu .nav-item .nav-link{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 1.2rem;
+    color: lightseagreen;
+    text-transform: uppercase;
+}
+
+.site-banner h3{
+    font-weight: 500;
+    font-size: 2rem;
+}
+.site-banner h1{
+    font-size: 4rem;
+}
+.site-banner h4{
+    font-size: 1.5rem;
+}
+.button1{
+    background: linear-gradient(to top left, lightseagreen, lightgreen);
+    border: 3px transparent;
+    font-weight: 600;
+    box-shadow: 3px 3px 5px #B0B0B0;
+    margin: 5px;
+    padding: 0.8rem 2.2rem;
+    color: white;
+}
+
+.button2{
+    padding: 0.5rem 1.4rem;
+}
+.button1:hover{
+    background: whitesmoke;
+    color: black;
+}
+#about{
+    padding-top: 8rem; margin-bottom: 7rem;
+}
+#services,.skills{
+    padding: 5rem 0;
+}
+.service .card1:hover, .skills .skills-main .box{
+    transition: transform .4s ease;
+}
+.service .card1:hover, .skills .skills-main .box:hover{
+    box-shadow: 10px 10px 20px #B0B0B0;
+    transform: scale(1.1);
+}
+#projects .ourProject .image:hover{
+    box-shadow: 17px 17px 20px #B0B0B0;
+}
+.skills .skills-main .back{
+    background-color:rgba(32,178,170,0.1);
+}
+
+#contacts .social-icon li{
+    display: inline;
+    padding: 5px 20px;
+    font-size: 30px;
+
+}
+#contact .social{
+    margin-left: 500px;
+}
+.button1 a{
+    text-decoration: none;
+}
+
+#skills .single-skill img{
+    width: 80px;
+    height: 80px;
+}
+
+/*skills*/
+.skill-area{
+    padding-bottom: 4rem;
+}
+
+.skill-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+.skill-area .first-row .col-lg-4 > .single-skill{
+    border: 1px solid rgb(199, 199, 199);
+    text-align: center;
+    padding: 0.5rem 2.0rem;
+    margin: 0.9rem 1rem;
+    transition: transform .4s ease;
+    width: 160px;
+    height: 100px;
+}
+.skill-area .first-row .col-lg-4 > .single-skill:hover{
+    box-shadow: 8px 8px 20px #c7c7c7; 
+    transform: scale(1.1);
+}
+
+.skill-area .exp-area{
+    padding: 1rem;
+}
+
+.skill-area .exp-area span{
+    display: block;
+}
+
+.skill-area .exp-area .years-area{
+    border: 2px dashed rgb(155, 155, 155);
+    width: 130px;
+    height: 130px;
+    z-index: -1;
+}
+
+.skill-area .exp-area .bg-panel{
+    position: absolute;
+    left: -190px; top: 0%;
+    background: rgba(255, 183, 192, 0.25);
+    height: 400px;
+    width: 400px;
+    margin-left: 280px;
+    z-index: -1;
+}
+
+.skill-area .exp-area .years-area .years{
+    font-size: 80px;
+    line-height: 40px;
+    color:lightseagreen;
+}
+.skill-area .exp-area .years-area h2>span{
+    font-size: 22px;
+}
+
+.skill-area .exp-area .call-area{
+    margin-left: 5rem;
+    margin-top: 150px;
+}
