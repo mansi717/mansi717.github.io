@@ -148,7 +148,7 @@ header nav{
     margin-top: 150px;
 }
 
-@media (min-width: 320px) and (max-width: 767px)
+@media (min-width: 320px) and (max-width: 900px)
 {
     .skill-area .exp-area .bg-panel{
         width: 60%;
